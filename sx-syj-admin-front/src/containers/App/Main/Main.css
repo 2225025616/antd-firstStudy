@@ -1,0 +1,119 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: #002140;
+  z-index: 1000;
+  padding-right: calc(20px - 100vw + 100%) !important;
+}
+
+.logo{
+  display: inline-block;
+  width: 260px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.header .title{
+  font-size: 25px;
+  color: #fff;
+}
+
+.header .right-msg-box{
+  float: right;
+  height: 80px;
+  line-height: 80px;
+  margin-right: 50px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.header .username{
+  font-size: 20px;
+  color: #fff;
+  margin-left: 10px;
+  display: inline-block;
+  position: relative;
+  /* top: -12px; */
+  line-height: 1;
+}
+
+.main-container .sider-switch{
+  margin-top: 16px;
+  margin-left: 20px;
+}
+
+.sider{
+  position: fixed;
+  width: 260px;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  background-color: #002140;
+  z-index: 1000;
+}
+
+.content{
+  margin-top: 80px;
+  padding: 24px calc(20px - 100vw + 24px + 100%) 24px 284px;
+  background-color: #f0f2f5; /* 021a1b */
+  min-height: calc(100vh - 80px);
+  /* min-width: 1508px; */
+  /* min-width: 1440px; */
+}
+
+.content>div{
+  position: relative;
+  background-color: #fff;
+  /* min-height: calc(100vh - 80px - 48px); */
+}
+
+.type-container>div:last-child{
+  background-color: #eee;
+  border: 1px solid #9a9a9a;
+}
+.content-header{
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+hr{
+  margin: 0;
+}
+#root tr:hover td{
+  background-color: transparent;
+}
+.ant-row{
+  height: 40px;
+  line-height: 40px;
+}
+.type-container>div>.ant-row>div{
+  padding-left: 20px; 
+}
+.textV{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #222;
+  text-align: left;
+  background: #fff;
+}
+.anticon-filter:before{
+  font-size: 16px;
+}
+table{
+  table-layout: fixed;
+}
+table .ant-table-tbody>tr>td{
+  table-layout: fixed;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ant-table-thead > tr > th span .anticon-filter{
+  color: #fff;
+}

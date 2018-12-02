@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: 'YueHei';
+  src: url('../fonts/MFYueHei_Noncommercial-Regular.otf');
+}
+
+@font-face {
+  font-family: 'ShangHei';
+  src: url('../fonts/MFShangHei_Noncommercial-Regular.otf');
+}
+
+html, body {
+  width: auto;
+  height: auto;
+}
+
+#chain-colud tr{
+  background: transparent;
+}
+
+#chain-colud thead span{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'YueHei';
+  color: #a8ebff;
+}

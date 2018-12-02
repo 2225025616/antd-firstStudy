@@ -1,0 +1,160 @@
+/* 统计中心页面 */
+div.centerModal{
+  margin: -24px;
+  background-color: #313a4c;
+  padding: 24px;
+  color: #33cccc;
+}
+.centerModal .ant-table-tbody>tr>td,
+.centerModal .ant-table-thead>tr>th{
+  padding: 16px 0;
+}
+.centerModal .ant-row,.centerModal .ctn1{
+  background: #192436;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+.title1{
+  width: 99px;
+  height: 25px;
+  margin: 0;
+  background: #192436 url('../../../../assets/title1.png') no-repeat;
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  z-index: 0;
+}
+.centerModal .ctn1{
+  padding-top: 25px;
+}
+.centerModal .ctn1::before{
+  margin-top: 20px;
+}
+.ctn1>div{
+  padding: 10px 0 10px 20px;
+  border: 2px solid #00ffff;
+  display: flex;
+  justify-content: space-between;
+}
+.centerModal .infoList{
+  width: 250px;
+}
+.centerModal .chart{
+  width: 100%;
+  padding-left: 30px;
+  position: relative;
+}
+.chart .tab{
+  position: absolute;
+  top: 0;
+  right: 80px;
+  z-index: 9;
+}
+.centerModal .ant-row:last-child{
+  padding: 10px 10px 0;
+  height: 300px;
+}
+.centerModal .ant-col-24{
+  margin-bottom: 10px;
+}
+.centerModal .greenBorder{
+  border: 1px solid #39b6b9;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.centerModal .greenBorder p{
+  width: 100%;
+  height: 84px;
+  text-align: center;
+  border: 1px solid #00ffff;
+  color: #fff;
+  line-height: 1.7;
+  padding: 10px 0;
+  margin: 1.1rem 0;
+  background: #282c5d;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+}
+.centerModal .greenBorder p>span{
+  display: inline-block;
+  width: 100%;
+}
+.centerModal .greenBorder p>i{
+  position: absolute;
+  width: 20px;
+  height: 38px;
+  border-left: 1px solid #00ffff;
+  background: #182133;
+  transform: rotate(45deg);
+  top: 57px;
+  right: -4px;
+}
+.centerModal .greenBorder p.active{
+  background: #231846;
+}
+  .centerModal .greenBorder span:last-child{
+  color: #39b6b9;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+}
+.modalCt{
+  background: #192436;
+  display: flex;
+  margin: 0 -8px;
+  height: 550px;
+  justify-content: space-between;
+}
+.inTime table .ant-table-thead > tr > th{
+  background: transparent;
+}
+.inTime .ant-table-tbody > tr > td{
+  border: none;
+  color: #33cccc;
+}
+.inTime .ant-table-tbody > tr:nth-child(2n){
+  background: #303b4c;
+}
+.modalCt>div{
+  width: 49%;
+  padding: 10px 20px;
+}
+.centerModal .inTime{
+  border: 2px solid #00ffff;
+  margin-top: 30px;
+  position: relative;
+}
+.centerModal .inTime>span{
+  background: url('../../../../assets/title2.png') left top no-repeat;
+  position: absolute;
+  width: 120px;
+  height: 35px;
+  top: -23px;
+  left: -3px;
+}
+.centerModal .mapCtn{
+  position: relative;
+  border: 2px solid #00ffff;
+  margin-top: 20px;
+}
+.centerModal .mapCtn>span{
+  background: url('../../../../assets/title3.jpg') no-repeat;
+  width: 322px;
+  height: 42px;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+}
+/* .centerModal .mapCtn>div{
+  background: url('../../../../assets/map.png') center center no-repeat;
+  width: 100%;
+  height: 450px;
+  background-size: 80%;
+} */
+.centerModal .mapCtn>div{
+  width: 100%;
+  height: 460px;
+  margin-top: 50px;
+}

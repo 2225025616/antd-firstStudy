@@ -1,0 +1,6 @@
+export const loginSuccessPage = '/main/index'
+export const loginSuccessMenu = '/main'
+export const saveDataType = 'query'
+export const publicPath = '/inspect-v1'
+export const baseURL = process.env.NODE_ENV === 'development' ? 'http://10.64.4.33' : ''
+export const serverErrorMsg = '服务器端出现错误，请联系管理员'

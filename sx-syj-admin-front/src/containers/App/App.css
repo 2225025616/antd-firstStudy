@@ -1,0 +1,130 @@
+body{
+    /* padding-right: calc(6px - 100vw + 100%) !important; */
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #6e6e6e;
+    outline: 1px solid #333;
+}
+
+.config-box{
+    padding: 0 30px;
+}
+
+.preview-box{
+    padding: 0 30px;
+}
+
+.header1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.line1{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    border-left: 1px solid #ccc;
+}
+table .ant-table-thead > tr > th{
+    background: #0a65be;
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+}
+/* .ant-table-thead > tr:nth-child(2n), .ant-table-tbody > tr:nth-child(2n){
+    background: #eee;
+} */
+.ant-table-thead .color-line, .ant-table-tbody .color-line{
+    background: #eee;
+}
+.ant-table-thead span,
+.ant-table-tbody div{
+    display: block;
+    text-align: center;
+}
+.ant-table-tbody td{
+    text-align: center;
+}
+
+#root .mt-5{
+    margin-right: 5px;
+}
+
+#root .mt-10{
+    margin-right: 10px;
+}
+
+.type-container{
+    padding: 20px;
+}
+
+.type-container .ant-breadcrumb{
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.type-container .ant-form-item{
+    overflow: hidden;
+    width: 360px;
+}
+
+.type-container .ant-form-item.table-form-item{
+    width: auto;
+}
+
+.type-container .ant-form-item-label{
+    float: left;
+}
+
+.type-container .ant-form-item-control-wrapper{
+    width: 222px;
+    float: right;
+}
+
+.type-container .table-form-item .ant-form-item-label{
+    width: 100px;
+    text-align: left;
+    float: left;
+}
+
+.type-container .table-form-item .ant-form-item-control-wrapper{
+    width: auto;
+    float: left;
+}
+
+.ant-form-item-label label:before {
+    display: inline-block;
+    margin-right: 4px;
+    content: '*';
+    font-family: SimSun;
+    line-height: 1;
+    font-size: 14px;
+    color: transparent;
+}
+
+.ant-form-item-label label.ant-form-item-required:before {
+    color: #f5222d;
+}
+
+#root .cloud th{
+    background-color: transparent;
+    color: rgb(0,255,255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+}
+
+#root .cloud td{
+    border: none;
+}
+
+#chain-colud td{
+    background-color: transparent !important;
+}
